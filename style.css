@@ -77,3 +77,44 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.member {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.member:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #d9e1f2;
+}
+
+.member h3 {
+  margin: 0.5rem 0 0.3rem;
+  color: #0a1f44;
+}
+
+.member p {
+  font-size: 0.95rem;
+  margin: 0;
+  color: #555;
+}
