@@ -134,7 +134,7 @@ footer {
   color: #072d8b;
   text-decoration
 
-  .funding-container {
+.funding-container {
   display: flex;
   align-items: center;      /* vertically center image and text */
   justify-content: center;  /* center the whole block */
@@ -150,4 +150,5 @@ footer {
 .funding-text {
   font-size: 1.1rem;
   max-width: 400px;         /* optional */
+  color: gray;
 }
