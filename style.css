@@ -22,7 +22,7 @@ body {
 header {
   background: #fff;
   color: #003366;
-  padding: 3rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   text-align: center;
 }
 
@@ -38,20 +38,34 @@ header h1 {
 }
 
 nav {
-  margin-top: 1.8rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
 }
 
 nav a {
-  color: #0a1f44;
-  margin: 0 1rem;
+  color: #003366;
   text-decoration: none;
   font-weight: 500;
-  font-size: 2.0rem;
-  transition: opacity 0.2s;
+  font-size: 1.3rem;
+  position: relative;
+  padding-bottom: 4px;
 }
 
-nav a:hover {
-  opacity: 0.8;
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #003366;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 
 main {
