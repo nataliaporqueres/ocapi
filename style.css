@@ -21,7 +21,7 @@ body {
 
 header {
   background: #fff;
-  color: #333;
+  color: #0a1f44;
   padding: 3rem 1rem 2rem 1rem;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header h1 {
 
 .subtitle {
   font-size: 1.1rem;
-  color: #a8c7ff;
+  color: #0a1f44;
   margin-top: 0.5rem;
 }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #0a1f44;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: 500;
@@ -85,7 +85,7 @@ ul li {
 
 footer {
   background: #fff;
-  color: #fff;
+  color: #0a1f44;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
