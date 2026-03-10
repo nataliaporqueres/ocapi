@@ -19,12 +19,12 @@ body {
 }
 
 .ocapi-logo {
-  width: 80px;   /* larger */
+  width: 150px;   /* larger */
 }
 
 header {
   background: #0a1f44;
-  color: #fff;
+  color: #333;
   padding: 3rem 1rem 2rem 1rem;
   text-align: center;
 }
