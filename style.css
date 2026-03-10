@@ -2,8 +2,8 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.6;
   margin: 0;
-  background: #f9fafc;
-  color: #fff;
+  background: white;
+  color: #0a1f44;
 }
 
 .logo-bar {
