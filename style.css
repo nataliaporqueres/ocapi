@@ -2,7 +2,7 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.6;
   margin: 0;
-  background: white;
+  background: #fff;
   color: #0a1f44;
 }
 
@@ -14,16 +14,13 @@ body {
   margin-bottom: 1rem;
 }
 
-.logo {
-  height: auto;
-}
-
 .ocapi-logo {
-  width: 300px;   /* larger */
+  width: 60px;    /* adjust size as you like */
+  height: auto;   /* larger */
 }
 
 header {
-  background: white;
+  background: #fff;
   color: #333;
   padding: 3rem 1rem 2rem 1rem;
   text-align: center;
@@ -87,7 +84,7 @@ ul li {
 }
 
 footer {
-  background: #0a1f44;
+  background: #fff;
   color: #fff;
   text-align: center;
   padding: 1rem;
