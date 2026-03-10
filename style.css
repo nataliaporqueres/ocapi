@@ -6,6 +6,25 @@ body {
   color: #333;
 }
 
+.logo-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: auto;
+}
+
+.ocapi-logo {
+  width: 140px;   /* larger */
+}
+
+.erc-logo {
+  width: 80px;    /* smaller */
+}
 
 header {
   background: #0a1f44;
