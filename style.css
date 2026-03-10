@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 300px;
   margin-bottom: 1rem;
 }
 
@@ -19,11 +19,11 @@ body {
 }
 
 .ocapi-logo {
-  width: 150px;   /* larger */
+  width: 300px;   /* larger */
 }
 
 header {
-  background: #0a1f44;
+  background: white;
   color: #333;
   padding: 3rem 1rem 2rem 1rem;
   text-align: center;
@@ -147,7 +147,7 @@ footer {
 
 .member .email:hover {
   color: #072d8b;
-  text-decoration
+  text-decoration: underline
 
 .funding-container {
   display: flex;
