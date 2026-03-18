@@ -106,6 +106,8 @@ nav a:hover::after {
 }
 
 main {
+  text-align: justify;  /* justifies the text */
+  text-justify: inter-word; /* improves spacing in some browsers */
   display: block;
   max-width: 800px;
   margin: 4rem auto;
