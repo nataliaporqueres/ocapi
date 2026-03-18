@@ -249,7 +249,7 @@ p {
 }
 
 .funding-logo {
-  width: 100px;             /* adjust size as you like */
+  width: min(180px, 90%);  /* up to 180px but never bigger than screen */
   height: auto;
 }
 
