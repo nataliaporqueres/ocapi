@@ -1,13 +1,32 @@
 body {
   font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
   line-height: 1.6;
   margin: 0;
   background: #f8fafc;  /* very light grey-blue */
   color: #1a2a4a;  
 }
 
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 20% 30%, rgba(59,130,246,0.05), transparent 40%);
+  pointer-events: none;
+  z-index: -1;
+}
+
 a {
   color: #0a4aff;
+  transition: all 0.2s ease;
+}
+
+section:first-of-type {
+  font-size: 1.1rem;
 }
 
 .logo-bar {
@@ -24,7 +43,7 @@ a {
 }
 
 header {
-  background: white;
+  background: linear-gradient(to bottom, #ffffff, #f1f5ff);
   color: #0a1f44;
   padding: 3rem 1rem 2rem 1rem;
   text-align: center;
@@ -44,10 +63,16 @@ header h1 {
 nav {
   color: #003366;
   margin-top: 2rem;
-  display: flex;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;  display: flex;
   justify-content: center;
   gap: 2.5rem;
   transition: color 0.2s ease;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --accent: #2563eb;
 }
 
 nav a {
@@ -59,6 +84,11 @@ nav a {
   padding-bottom: 4px;
 }
 
+nav a,
+.member .email {
+  color: var(--accent);
+}
+
 nav a::after {
   content: "";
   position: absolute;
@@ -66,8 +96,8 @@ nav a::after {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background: #003366;
   transition: width 0.3s ease;
+  background: var(--accent);
 }
 
 nav a:hover::after {
@@ -75,7 +105,7 @@ nav a:hover::after {
 }
 
 main {
-  max-width: 900px;
+  max-width: 800px;
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
@@ -88,9 +118,12 @@ h2 {
   color: #0a1f44;
   border-bottom: 2px solid #d9e1f2;
   padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   border-bottom: 2px solid #c7d2fe;
   letter-spacing: 0.02em;
+  background: linear-gradient(to right, #0a1f44, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ul {
@@ -100,6 +133,12 @@ ul {
 
 ul li {
   margin: 0.5rem 0;
+}
+
+#team {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 16px;
 }
 
 .team-list strong {
@@ -172,6 +211,10 @@ footer {
 .member h3 {
   margin: 0.5rem 0 0.3rem;
   color: #0a1f44;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 .member p {
