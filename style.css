@@ -2,7 +2,7 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.6;
   margin: 0;
-  background: #fff;
+  background: #f8fafc;  /* very light grey-blue */
   color: #0a1f44;
 }
 
@@ -10,13 +10,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
-  margin-bottom: 1rem;
+  gap: 3rem;
+  flex-wrap: wrap;   /* allows stacking on small screens */
 }
 
 .ocapi-logo {
-  width: 500px;    /* adjust size as you like */
-  height: auto;   /* larger */
+  width: min(90%, 500px);
+  height: auto;
 }
 
 header {
@@ -28,25 +28,26 @@ header {
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2.7rem;
+  font-size: 2.8rem;
+  font-weight: 600;
 }
 
 .subtitle {
-  font-size: 2.7rem;
-  color: #0a1f44;
-  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: #4a5a7a;
 }
 
 nav {
+  color: #003366;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 2.5rem;
+  transition: color 0.2s ease;
 }
 
 nav a {
-  color: #003366;
+  color: #0a4aff;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.3rem;
@@ -71,12 +72,12 @@ nav a:hover::after {
 
 main {
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 0 1.5rem;
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 h2 {
@@ -120,7 +121,7 @@ footer {
 }
 
 .member {
-  background: #fff;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -129,8 +130,8 @@ footer {
 }
 
 .member:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .member img {
@@ -166,6 +167,7 @@ footer {
 .member .email:hover {
   color: #072d8b;
   text-decoration: underline
+}
 
 .funding-container {
   display: flex;
