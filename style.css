@@ -266,7 +266,7 @@ p {
 }
 
 .funding-logo {
-  width: min(180px, 90%);  /* up to 180px but never bigger than screen */
+  width: min(360px, 90%);  /* up to 360px but never bigger than screen */
   height: auto;
 }
 
