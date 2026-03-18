@@ -3,7 +3,11 @@ body {
   line-height: 1.6;
   margin: 0;
   background: #f8fafc;  /* very light grey-blue */
-  color: #0a1f44;
+  color: #1a2a4a;  
+}
+
+a {
+  color: #0a4aff;
 }
 
 .logo-bar {
@@ -85,6 +89,8 @@ h2 {
   border-bottom: 2px solid #d9e1f2;
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
+  border-bottom: 2px solid #c7d2fe;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -101,18 +107,38 @@ ul li {
 }
 
 footer {
-  background: #fff;
-  color: #0a1f44;
-  text-align: center;
-  padding: 1rem;
+  background: #f1f5f9;   /* soft contrast */
+  color: #1a2a4a;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-left {
   font-size: 0.9rem;
 }
 
-.footer-logo {
-  width: 60px;             /* adjust size as you like */
-  height: auto;
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
+.footer-logo {
+  width: 50px;
+  height: auto;
+  opacity: 0.9;
+}
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -186,4 +212,19 @@ footer {
   font-size: 1.1rem;
   max-width: 400px;         /* optional */
   color: gray;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
