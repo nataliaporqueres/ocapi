@@ -20,10 +20,11 @@ body {
 }
 
 header {
-  background: #fff;
-  color: #003366;
-  padding: 2rem 1rem 2rem 1rem;
+  background: white;
+  color: #0a1f44;
+  padding: 3rem 1rem 2rem 1rem;
   text-align: center;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 header h1 {
