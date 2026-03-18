@@ -194,6 +194,14 @@ footer {
   text-align: center;
   padding: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
+  color: #0a1f44;         /* dark blue */
+  text-decoration: none;   /* remove underline */
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.member h3 a:hover {
+  color: #2563eb;          /* accent blue on hover */
+  text-decoration: underline; /* optional hover underline */
 }
 
 .member:hover {
