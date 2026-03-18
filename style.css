@@ -187,6 +187,15 @@ footer {
   margin-top: 2rem;
 }
 
+.team-grid .member h3 a {
+    text-decoration: none; /* no underline by default */
+    color: inherit;         /* keep the same text color */
+    transition: text-decoration 0.2s ease; /* smooth effect */
+}
+.team-grid .member h3 a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
 .member {
   background: #ffffff;
   border-radius: 12px;
