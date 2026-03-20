@@ -302,7 +302,7 @@ p {
 }
 
 .footer-logo {
-  width: 50px;
+  width: min(360px, 90%);
   height: auto;
   opacity: 0.9;
 }
