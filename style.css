@@ -137,6 +137,12 @@ section:first-of-type {
   font-size: 1.05rem;
 }
 
+#project {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 75ch;
+}
+
 /* Team */
 .team-grid {
   display: grid;
