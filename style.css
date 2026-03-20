@@ -85,6 +85,14 @@ nav a {
   padding-bottom: 4px;
 }
 
+nav a.active::after {
+  width: 100%;
+}
+
+nav a.active {
+  font-weight: 600;
+}
+
 nav a,
 .member .email {
   color: var(--accent);
