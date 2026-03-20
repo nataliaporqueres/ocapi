@@ -128,6 +128,12 @@ nav a:hover::after {
   width: 100%;
 }
 
+.ocapi-logo-small {
+  height: clamp(32px, 3vw, 44px);
+  width: auto;
+  display: block;
+}
+
 /* Sections */
 section {
   margin-bottom: 4rem;
