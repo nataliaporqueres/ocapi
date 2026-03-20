@@ -159,11 +159,20 @@ section:first-of-type {
 }
 
 /* Team */
+
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.team-grid .member.pi {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 2rem;
 }
 
 .member {
