@@ -235,6 +235,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .team-grid .member h3 a {
