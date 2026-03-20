@@ -1,15 +1,21 @@
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  display: block;
+  display: flex;
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
   background: #f8fafc;  /* very light grey-blue */
   color: #1a2a4a;  
 }
 
 h1, h2, h3 {
   letter-spacing: -0.01em;
+}
+
+html, body {
+  height: 100%;
 }
 
 body::before {
@@ -147,6 +153,7 @@ nav a:hover::after {
 }
 
 main {
+  flex: 1;
   text-align: justify;  /* justifies the text */
   text-justify: inter-word; /* improves spacing in some browsers */
   display: block;
@@ -193,7 +200,7 @@ footer {
   background: #f1f5f9;   /* soft contrast */
   color: #1a2a4a;
   padding: 2rem 1rem;
-  margin-top: 4rem;
+  margin-top: auto;
   border-top: 1px solid #e2e8f0;
 }
 
