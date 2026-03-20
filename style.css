@@ -101,7 +101,6 @@ nav {
   color: #003366;
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #e5e7eb;  display: flex;
   justify-content: center;
   gap: 2.5rem;
   transition: color 0.2s ease;
