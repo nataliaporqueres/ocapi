@@ -177,10 +177,6 @@ section:first-of-type {
   gap: 1rem;
 }
   
-  text-align: left;
-  gap: 2rem;
-}
-
 .member {
   background: var(--surface);
   border-radius: var(--radius);
@@ -199,6 +195,8 @@ section:first-of-type {
 }
 
 .member img {
+  display: block;
+  margin: 0 auto 1rem;
   width: 120px;
   height: 120px;
   border-radius: 50%;
