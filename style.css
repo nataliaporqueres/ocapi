@@ -259,11 +259,11 @@ footer {
 .footer-right {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .footer-logo {
-  height: 50px;
+  height: 70px;
   width: auto;
   display: block;
   opacity: 0.9;
