@@ -139,7 +139,7 @@ nav a:hover::after {
 }
 
 .ocapi-logo-small {
-  height: clamp(40px, 4vw, 56px);
+  height: clamp(50px, 4vw, 70px);
   width: auto;
   display: block;
 }
